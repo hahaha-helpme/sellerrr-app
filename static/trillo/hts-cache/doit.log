@@ -1,0 +1,8 @@
+https://trillo.framer.ai/ -O ./trillo-website-httrack -w -s0 -c8 -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" +*trillo.framer.ai/* +*framerusercontent.com/*
+File generated automatically on Tue, 23 Sep 2025 21:46:05, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
