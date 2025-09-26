@@ -1,7 +1,9 @@
-<script>
-  export let data;
-  const head = data?.page?.head ?? '';
-  const body = data?.page?.body ?? '';
+<script lang="ts">
+  import type { PageData } from './$types';
+
+  export let data: PageData;
+
+  const { head, body } = data.page;
 </script>
 
 <svelte:head>

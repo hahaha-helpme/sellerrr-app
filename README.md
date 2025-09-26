@@ -36,3 +36,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Project structure
+
+- `src/lib/raw/homepage.html` contains the exported landing page markup. Update this file if you edit the Framer export.
+- `src/lib/server/homepage.ts` rewrites asset paths and exposes the data used by `src/routes/+page.svelte`.
+- `static/homepage/assets` holds the Framer-generated assets. `static/assets` is a symlink to the same directory so legacy paths keep working.
